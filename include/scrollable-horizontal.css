@@ -1,0 +1,59 @@
+
+.scrollable {
+	position:relative;
+	overflow:hidden;
+	width: 240px;
+	height:430px;
+}
+
+.scrollable .items {
+	height: 20000em;
+	position:absolute;
+	clear:both;
+}
+
+.items div {
+	float:left;
+	height: 430px;
+}
+
+.scrollable img {
+	background-color:#fff;
+	border:2px solid #ccc;
+	width:100px;
+	height:133px;
+	
+	cursor:pointer;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+
+
+.group_scrollable {
+	position:relative;
+	overflow:hidden;
+	width: 900px;
+	height:430px;
+}
+
+.group_scrollable .items {
+	height: 20000em;
+	position:absolute;
+	clear:both;
+}
+
+.group_scrollable img {
+	background-color:#fff;
+	border:2px solid #ccc;
+	cursor:pointer;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+
+.scrollable .active {
+	border: 2px solid #666666;
+	position:relative;
+	cursor:default;
+}
+
+

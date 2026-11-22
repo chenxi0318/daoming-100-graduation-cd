@@ -1,0 +1,65 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=1000">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>道明中學100級畢業光碟 - 班級選單</title>
+<link href="../style.css" rel="stylesheet" type="text/css" />
+<script src="../include/jquery.tools.min.js"></script>
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+	$(function() {
+		$("#ListJHS").show();
+		$("#ListHS").hide();
+  });
+	
+	function ShowJHS(){
+		$("#ListJHS").show();
+		$("#ListHS").hide();
+	}
+	
+	function ShowHS(){
+		$("#ListHS").show();
+		$("#ListJHS").hide();
+	}
+</script>
+</head>
+
+<body onload="MM_preloadImages('../images/jhs.png','../images/hs.png','../images/teacherc.png','../images/top_01_1c.png')">
+<div id="include">
+	
+	<div id="top_01"><a href="../index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('top_01_title','','../images/top_01_1c.png',1)"><img src="../images/top_01_1.png" alt="100級道明中學畢業光碟首頁" name="top_01_title" border="0" id="top_01_title" /></a><img src="../images/top_01_2.png" /><a href="javascript: void(0)" onClick="javascript:ShowJHS();" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('jhs','','../images/jhs.png',1)"><img src="../images/jhs.gif" alt="國中部" name="jhs" border="0" id="jhs" /></a><img src="../images/top_01_3.png" /><a href="javascript: void(0)" onClick="javascript:ShowHS();" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('hs','','../images/hs.png',1)"><img src="../images/hs.gif" alt="高中部" name="hs" border="0" id="hs" /></a><img src="../images/top_01_4.png" /></div>
+  <div id="center_01">
+  	<div id="ListJHS">
+  		<div id="class_list"><a href="../page/JHS301.html">國三1</a></div><div id="class_list"><a href="../page/JHS302.html">國三2</a></div><div id="class_list"><a href="../page/JHS303.html">國三3</a></div><div id="class_list"><a href="../page/JHS304.html">國三4</a></div><div id="class_list"><a href="../page/JHS305.html">國三5</a></div><div id="class_list"><a href="../page/JHS306.html">國三6</a></div><div id="class_list"><a href="../page/JHS307.html">國三7</a></div><div id="class_list"><a href="../page/JHS308.html">國三8</a></div><div id="class_list"><a href="../page/JHS309.html">國三9</a></div><div id="class_list"><a href="../page/JHS310.html">國三10</a></div><div id="class_list"><a href="../page/JHS311.html">國三11</a></div><div id="class_list"><a href="../page/JHS312.html">國三12</a></div><div id="class_list"><a href="../page/JHS313.html">國三13</a></div><div id="class_list"><a href="../page/JHS314.html">國三14</a></div><div id="class_list"><a href="../page/JHS315.html">國三15</a></div><div id="class_list"><a href="../page/JHS316.html">國三16</a></div>		</div>
+  	<div id="ListHS">
+  		<div id="class_list"><a href="../page/HS301.html">高三1A</a></div><div id="class_list"><a href="../page/HS302.html">高三1甲</a></div><div id="class_list"><a href="../page/HS303.html">高三1自</a></div><div id="class_list"><a href="../page/HS304.html">高三2A</a></div><div id="class_list"><a href="../page/HS305.html">高三2甲</a></div><div id="class_list"><a href="../page/HS306.html">高三3A</a></div><div id="class_list"><a href="../page/HS307.html">高三3甲</a></div><div id="class_list"><a href="../page/HS308.html">高三4</a></div><div id="class_list"><a href="../page/HS309.html">高三5</a></div><div id="class_list"><a href="../page/HS310.html">高三6</a></div><div id="class_list"><a href="../page/HS311.html">高三7</a></div><div id="class_list"><a href="../page/HS312.html">高三8</a></div><div id="class_list"><a href="../page/HS313.html">高三9A</a></div><div id="class_list"><a href="../page/HS314.html">高三9甲</a></div><div id="class_list"><a href="../page/HS315.html">高三10</a></div><div id="class_list"><a href="../page/HS316.html">高三11</a></div><div id="class_list"><a href="../page/HS317.html">高三12</a></div><div id="class_list"><a href="../page/HS318.html">高三13</a></div><div id="class_list"><a href="../page/HS319.html">高三14</a></div>		</div>
+		
+		<div id="teacher_button"><a href="teacher.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('teacher','','../images/teacherc.png',1)"><img src="../images/teacher.png" alt="師長頁" name="teacher" border="0" id="teacher" /></a></div>
+  </div>
+  <div id="bottom_01"></div>
+</div>
+</body>
+</html>
